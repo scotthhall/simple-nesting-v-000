@@ -1,4 +1,3 @@
-require pry
 
 def hopper
 	programmer_hash =
@@ -82,7 +81,8 @@ def adding_matz
           :languages => ["C"]
         }
      }
-	programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby"}
+	programmer_hash[:yukihiro_matsumoto] = {}
+	
 
 end
 
